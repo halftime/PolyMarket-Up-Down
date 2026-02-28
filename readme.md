@@ -47,8 +47,10 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
 - Pre market cointoss
     - Up/down crypto markets commonly trade around 49/51 cents before any strike price is known. Trading these markets is much more relaxed and a good way to get started. Mind volatility and drift will still impact the pricing of these markets albeit it usually with only a few cents or so. Trades will usually come in a few seconds before the market goes live as bots and traders try to front run the crowd.
 
+    ![example of making the spread on cointoss](image-1.png)
+
 - Green out the book
-    - You can send in multiple orders on one side (batch order), use this to set orders at multiple price levels. The same order value for simplicity, or slightly increase ordersize as you go down the book.
+    - You can send in multiple orders on one side (batch order), use this to set orders at multiple price levels. The same order value (min 1 USDC worth) for simplicity, or slightly increase ordersize as you go down the book.
 
 - Leaderbord tracking
     - You can easily track your MM volume and profitability using the leaderbord (scroll down): https://polymarket.com/leaderboard/crypto/today/profit could be interesting to log your & progress and rank in volume & PNL
