@@ -86,8 +86,10 @@ So you want to chat with the big boys on discord... (SO to #devs)
 - Automated trading is an easy way to lose money hands free. Beware of any available balance in your account before executing an automated trading system, a simple bug could blow it all in seconds. Do **NOT** run any unknown code or put your API keys in someone else's app.
 
 
-### Fin
+### End
 Wrote this up from my personal notes but I'm still not profitable myself. ![alltime crypto stats, 28 feb 2026](image.png)
+
+-739 loss for a volume of 247K or -0.3% 
 
 
 Feel free to tip me a coffee if you gained value from this writeup.
