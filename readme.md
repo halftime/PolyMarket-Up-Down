@@ -63,6 +63,9 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
 
 - PostOnly = True 
     - set when sending in order to ensure you're only making volume (earn MM rebates https://docs.polymarket.com/market-makers/maker-rebates)
+ 
+- Parameters
+    - Do not hardcode any numrical variables or parameters controlling the trading system. Export an instance out of a seperate class holding your trading params.
 
 
 ### Terminology
