@@ -76,7 +76,9 @@ So you want to chat with the big boys on discord... (SO to #devs)
 
 
 ### Fin
-Wrote this up from my personal notes but I'm still not profitable myself. ![alltime crypto stats, 28 feb 2026](image.png) 
+Wrote this up from my personal notes but I'm still not profitable myself. ![alltime crypto stats, 28 feb 2026](image.png)
+
+
 Feel free to tip me a coffee if you gained value from this writeup.
 
 https://polymarket.com/@ignc 
