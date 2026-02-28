@@ -52,8 +52,14 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
 - Green out the book
     - You can send in multiple orders on one side (batch order), use this to set orders at multiple price levels. The same order value (min 1 USDC worth) for simplicity, or slightly increase ordersize as you go down the book.
 
+    ![alt text](image-2.png)
+
 - Leaderbord tracking
     - You can easily track your MM volume and profitability using the leaderbord (scroll down): https://polymarket.com/leaderboard/crypto/today/profit could be interesting to log your & progress and rank in volume & PNL
+
+- GTD: good till date
+    - Use GTD orders to control when they will expire, e.g: expire 30 seconds before market end. Or expire right as the market goes from pre to live trading (T_0). Minimal expiry delay is 90s as per poly
+
 
 - PostOnly = True 
     - set when sending in order to ensure you're only making volume (earn MM rebates https://docs.polymarket.com/market-makers/maker-rebates)
@@ -74,7 +80,7 @@ So you want to chat with the big boys on discord... (SO to #devs)
 
 
 ### Warnings
-- Automated trading is an easy way to lose money hands free. Beware of any available balance in your account before executing trades, a simple bug could blow it all in seconds.
+- Automated trading is an easy way to lose money hands free. Beware of any available balance in your account before executing an automated trading system, a simple bug could blow it all in seconds. Do **NOT** run any unknown code or put your API keys in someone else's app.
 
 
 ### Fin
