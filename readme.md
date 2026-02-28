@@ -17,13 +17,14 @@ Crypto pairs:
 - XRP
 
 ### Strike
-By market start (T_0) a timer will start a countdown. this moment marks the reference "price to beat" = strike price as per chainlink price feed.
+By market start (T_0) a timer will start a countdown. This marks the reference "price to beat" = strike price as per chainlink price feed.
 
 Somewhat later (T_0 + delay) (~30s) the site UI will display the price to beat. If you want to be sure of your strike you will have to scrape this value e.g: threaded worker > webdriver > regex > ... 
 
 You can approximate the strike earlier by logging the very last previous closing price on the chainlink RTDS (see below)
 
-or try a GET request it from API: https://polymarket.com/api/crypto/crypto-price?symbol=BTC&eventStartTime=2026-02-02T19:45:00Z&variant=fifteen 
+or try a GET request: 
+'''https://polymarket.com/api/crypto/crypto-price?symbol=BTC&eventStartTime=2026-02-02T19:45:00Z&variant=fifteen'''
 
 Mind all GET params: symbol ; eventStartTime (ts as long format string) ; variant = fifteen | five | ?
 
