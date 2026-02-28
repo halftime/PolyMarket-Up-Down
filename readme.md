@@ -24,7 +24,7 @@ Somewhat later (T_0 + delay) (~30s) the site UI will display the price to beat. 
 You can approximate the strike earlier by logging the very last previous closing price on the chainlink RTDS (see below)
 
 or try a GET request: 
-'''https://polymarket.com/api/crypto/crypto-price?symbol=BTC&eventStartTime=2026-02-02T19:45:00Z&variant=fifteen'''
+```https://polymarket.com/api/crypto/crypto-price?symbol=BTC&eventStartTime=2026-02-02T19:45:00Z&variant=fifteen```
 
 Mind all GET params: symbol ; eventStartTime (ts as long format string) ; variant = fifteen | five | ?
 
