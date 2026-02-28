@@ -50,7 +50,7 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
     ![example of making the spread on cointoss](image-1.png)
 
 - Green out the book
-    - You can send in multiple orders on one side (batch order), use this to set orders at multiple price levels. The same order value (min 1 USDC worth) for simplicity, or slightly increase ordersize as you go down the book.
+    - You can send in multiple orders on a single market (batch order), use this to set orders at multiple price levels. The same order value (min 1 USDC worth) for simplicity, or slightly increase ordersize as you go down the book.
 
     ![alt text](image-2.png)
 
@@ -75,7 +75,7 @@ So you want to chat with the big boys on discord... (SO to #devs)
 |---------------------|--------------------------------------------------------------------------------------------------------------|
 | (WS) WebSocket      | A direct, continuous TCP stream between server and client. Beware of timeouts and ping/pong requirements.  |
 | (Bid-Ask) Spread    | The price difference between the bid and the ask.                                                           |
-| (Order) Book        | A list of outstanding buy and sell orders. The live state can be read using a WebSocket connection.        |
+| OrderBook        | A list of outstanding buy and sell orders. The live state can be read using a WebSocket connection.        |
 | (MM) Market Making  | The practice of quoting both sides of the market, placing buy and sell orders to provide liquidity.        |
 | (σ) Volatility      | Often denoted as sigma (σ): the degree of price variation over a given timeframe.                          |
 | (BS) Black-Scholes  | An options pricing model used to estimate a fair value based on volatility, time, and other inputs.       |
