@@ -17,7 +17,7 @@ Crypto pairs:
 - XRP
 
 ### Strike
-By market start (T_0) a timer will start a countdown. This marks the reference "price to beat" = strike price as per chainlink price feed.
+By market start T_0 = the UTC timestamp in the slug(url). This marks the reference "price to beat" = strike price as per chainlink price feed.
 
 Somewhat later (T_0 + delay) (~30s) the site UI will display the price to beat. If you want to be sure of your strike you will have to scrape this value e.g: threaded worker > webdriver > regex > ... 
 
@@ -66,6 +66,9 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
  
 - Parameters
     - Do not hardcode any numrical variables or parameters controlling the trading system. Export an instance out of a seperate class holding your trading params.
+    - Clamp critical values (tightly initially!) e.g: trading price range {0.40 <> 0.60} to trade midrange markets; minimal bid-ask spread of >=0.05 if you're just starting
+    - Incrementing your bid/ask spread per every unit(share) increase of inventory is an easy trick to not get spammed with fills
+    - Log, comment code and take notes of what seems to work
 
 
 ### Terminology
