@@ -17,9 +17,9 @@ Crypto pairs:
 - XRP
 
 ### Strike
-By market start T_0 = the UTC timestamp in the slug(url). This marks the reference "price to beat" = strike price as per chainlink price feed.
+Market start T_0 = the UTC timestamp in the slug(url). "price to beat" = strike price as per chainlink price feed.
 
-Somewhat later (T_0 + delay) (~30s) the site UI will display the price to beat. If you want to be sure of your strike you will have to scrape this value e.g: threaded worker > webdriver > regex > ... 
+Somewhat delayed (T_0 + delay) (~30s) the site UI will display the price to beat. If you want to be sure of your strike you will have to scrape this value e.g: threaded worker > webdriver > regex > ... 
 
 You can approximate the strike earlier by logging the very last previous closing price on the chainlink RTDS (see below)
 
