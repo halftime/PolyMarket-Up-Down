@@ -56,13 +56,15 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
 
 - Leaderbord tracking
     - You can easily track your MM volume and profitability using the leaderbord (scroll down): https://polymarket.com/leaderboard/crypto/today/profit could be interesting to log your & progress and rank in volume & PNL
+      
+- Betmoar
+    - Track rebates using the filter of https://www.betmoar.fun 
 
 - GTD: good till date
     - Use GTD orders to control when they will expire, e.g: expire 30 seconds before market end. Or expire right as the market goes from pre to live trading (T_0). Minimal expiry delay is 90s as per poly
 
-
-- PostOnly = True 
-    - set when sending in order to ensure you're only making volume (earn MM rebates https://docs.polymarket.com/market-makers/maker-rebates)
+- PostOnly 
+    - set PostOnly = True when sending in order to ensure you're only making volume (earn MM rebates https://docs.polymarket.com/market-makers/maker-rebates)
  
 - Parameters
     - Do not hardcode any numrical variables or parameters controlling the trading system. Export an instance out of a seperate class holding your trading params.
