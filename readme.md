@@ -48,6 +48,8 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
     - Up/down crypto markets commonly trade around 49/51 cents before any strike price is known. Trading these markets is much more relaxed and a good way to get started. Mind volatility and drift will still impact the pricing of these markets albeit it usually with only a few cents or so. Trades will usually come in a few seconds before the market goes live as bots and traders try to front run the crowd.
 
     ![example of making the spread on cointoss](image-1.png)
+  <img width="797" height="183" alt="example2 of MM the spread (48+51 = 99)" src="https://github.com/user-attachments/assets/ba571411-ce39-4c9d-ad19-7afc55723f22" />
+
 
 - Green out the book
     - You can send in multiple orders on a single market (batch order), use this to set orders at multiple price levels. The same order value (min 1 USDC worth) for simplicity, or slightly increase ordersize as you go down the book.
@@ -58,7 +60,7 @@ Beware polymarket WS are known for stability issues (aggrevated by VPN usage). S
     - You can easily track your MM volume and profitability using the leaderbord (scroll down): https://polymarket.com/leaderboard/crypto/today/profit could be interesting to log your & progress and rank in volume & PNL
       
 - Betmoar
-    - Track rebates using the filter of https://www.betmoar.fun 
+    - Track MM rebates, yield, ... using the filters on https://betmoar.fun 
 
 - GTD: good till date
     - Use GTD orders to control when they will expire, e.g: expire 30 seconds before market end. Or expire right as the market goes from pre to live trading (T_0). Minimal expiry delay is 90s as per poly
